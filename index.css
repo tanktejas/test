@@ -345,7 +345,14 @@ ul li button p {
     margin-right: 8px;
   }
 }
-
+ .temp {
+  width: 156px;
+  height: 23px;
+  color:  red;
+  margin-left: 25px;
+  background-color: transparent;
+  display: none;
+} 
 @media (max-width: 495px) {
   .lsl .imagedes img {
     height: 90px;
@@ -367,6 +374,21 @@ select {
   text-align: center;
 }
 @media (max-width: 622px) {
+  .temp{
+    align-items:  center;
+    text-align: center;
+    width: 218px !important;
+    display: block;
+  }
+  .temp button{
+    width: auto !important;
+    display: block; 
+     width: 156px;
+    height: 23px;
+    color:  red;
+    margin-left: 25px;
+    background-color: transparent;
+  }
   .main {
     width: 1420px;
   }

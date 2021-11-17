@@ -1,3 +1,4 @@
+ 
 .form {
   background: rgb(84, 234, 245);
   box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
@@ -209,3 +210,284 @@ footer p {
 /* .buttons {
   margin: 40px 312px !important;
 } */
+
+
+
+
+/* extra  */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.demo {
+  display: flex;
+  justify-content: center;
+}
+a {
+  text-align: center;
+}
+.demo a button {
+  border-radius: 10px;
+}
+.main {
+  background-image: linear-gradient(
+      to right,
+      rgba(34, 33, 33, 0.746),
+      rgba(24, 24, 24, 0.856)
+    ),
+    url("https://i.ibb.co/vXqDmnh/background.jpg");
+  background-size: 100%;
+
+  width: 100%;
+}
+.lsl {
+  height: 140px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.lsl .imagedes img {
+  height: 100px;
+  width: 190px;
+  margin: 18px 30px;
+  border-radius: 50%;
+  background: none;
+  overflow: hidden;
+}
+.buttons {
+  margin: 40px 41px;
+}
+.buttons .language {
+  margin-right: 44px;
+  width: 99px;
+  height: 37px;
+  background: none;
+  color: white;
+  font-size: 16px;
+}
+.buttons .language option {
+  text-align: center;
+  background-color: rgb(129, 126, 126);
+  color: white;
+}
+.buttons .signin {
+  width: 80px;
+  height: 33px;
+  border: 1px solid red;
+  border-radius: 4px;
+  background-color: red;
+  color: white;
+  font-size: 18px;
+}
+.buttons .signin:hover {
+  cursor: pointer;
+}
+.mainhead {
+  height: 100%;
+  width: 100vw;
+  margin-top: 98px;
+  color: white;
+}
+.mailandstart {
+  display: flex;
+  justify-content: center;
+  padding: 19px 0px;
+}
+.mailandstart input {
+  width: 307px;
+  height: 50px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 19px;
+}
+.mailandstart button {
+  width: 170px;
+  height: 50px;
+  background: red;
+  border: 1px solid red;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 4px;
+  border-radius: 5px;
+}
+.mailandstart button:hover {
+  cursor: pointer;
+}
+.mainhead p,
+h1,
+h3 {
+  text-align: center;
+  padding: 11px 0px;
+}
+.textinner {
+  color: white;
+}
+.mainhead h1 {
+  font-weight: 900;
+  font-size: 65px;
+  font-family: "Ubuntu", sans-serif;
+}
+.mainhead h3 {
+  font-size: 33px;
+  font-family: "Ubuntu", sans-serif;
+}
+.mainhead p {
+  font-size: 19px;
+  font-family: "Ubuntu", sans-serif;
+}
+.fas {
+  display: none;
+}
+
+.drop {
+  display: none;
+}
+
+.maintext {
+  display: flex;
+  background: black;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.maintext .one {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.maintext .two,
+.three,
+.four {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.image img {
+  height: 330px;
+  width: 442px;
+  z-index: 4 !important;
+  overflow: hidden;
+  border-radius: 42px;
+}
+.playmusic {
+  position: absolute;
+  top: 20%;
+  left: -25%;
+}
+.image {
+  height: 317px;
+  width: 494px;
+  position: relative;
+}
+.playmusic video {
+  margin-top: 5px;
+  height: 181px;
+  width: 693px;
+  overflow: hidden;
+  margin-left: -4px;
+}
+.one,
+.two {
+  background: rgb(0, 0, 0);
+}
+.two,
+.three,
+.four {
+  margin-top: 23px;
+}
+.textinner p {
+  text-align: center;
+}
+
+.questions {
+  background-color: black;
+  padding: 23px;
+}
+.questions .content h1 {
+  color: white;
+  font-size: 38px;
+}
+.questions ul li {
+  padding: 5px 0px;
+  list-style: none;
+  text-align: center;
+}
+.questions ul li button,
+img {
+  background-color: rgba(48, 47, 47, 0.863);
+  color: white;
+}
+
+
+/* footer style  */
+.link {
+  padding: 50px;
+  background-color: rgb(22, 22, 22);
+  color: #ffffff;
+}
+
+.sub-links ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.sub-links a {
+  color: var(--dark);
+  text-decoration: none;
+}
+
+.sub-links a:hover {
+  color: var(--dark);
+  text-decoration: underline;
+}
+
+.logos {
+  margin-top: 12px;
+}
+
+.logos a {
+  padding: 10px;
+}
+
+.logo {
+  color: var(--dark);
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  color: var(--dark);
+  padding: 14px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+button:hover {
+  cursor: pointer;
+}
+.demo button {
+  color: white;
+  width: 205px !important;
+  height: 43px;
+  font-size: 29px !important;
+  font-weight: 300;
+}
+footer,
+footer p {
+  background-color: black !important;
+  color: rgb(255, 255, 255);
+}
+.main{
+  height: 100% !important;
+}

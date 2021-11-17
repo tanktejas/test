@@ -10,6 +10,9 @@ const fun=()=>{
   }
 } 
 
+setTimeout(() => {
+    const ele=document.querySelector();
+}, 5000);
 
 const arrforque=[0,0,0,0,0,0];
 
@@ -71,5 +74,6 @@ const funforqueopen6=()=>{
     }else{
         elementofque.style.display="inline";
     }
+
     arrforque[5]=(!arrforque[5]);
 }
