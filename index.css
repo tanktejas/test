@@ -1,0 +1,562 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.demo {
+  display: flex;
+  justify-content: center;
+}
+a {
+  text-align: center;
+}
+.demo a button {
+  border-radius: 10px;
+}
+.main {
+  background-image: linear-gradient(
+      to right,
+      rgba(34, 33, 33, 0.746),
+      rgba(24, 24, 24, 0.856)
+    ),
+    url("https://i.ibb.co/vXqDmnh/background.jpg");
+  background-size: 100%;
+
+  width: 100%;
+}
+.lsl {
+  height: 140px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.lsl .imagedes img {
+  height: 100px;
+  width: 190px;
+  margin: 18px 30px;
+  border-radius: 50%;
+  background: none;
+  overflow: hidden;
+}
+.buttons {
+  margin: 40px 41px;
+}
+.buttons .language {
+  margin-right: 44px;
+  width: 99px;
+  height: 37px;
+  background: none;
+  color: white;
+  font-size: 16px;
+}
+.buttons .language option {
+  text-align: center;
+  background-color: rgb(129, 126, 126);
+  color: white;
+}
+.buttons .signin {
+  width: 80px;
+  height: 33px;
+  border: 1px solid red;
+  border-radius: 4px;
+  background-color: red;
+  color: white;
+  font-size: 18px;
+}
+.buttons .signin:hover {
+  cursor: pointer;
+}
+.mainhead {
+  height: 100%;
+  width: 100vw;
+  margin-top: 98px;
+  color: white;
+}
+.mailandstart {
+  display: flex;
+  justify-content: center;
+  padding: 19px 0px;
+}
+.mailandstart input {
+  width: 307px;
+  height: 50px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 19px;
+}
+.mailandstart button {
+  width: 170px;
+  height: 50px;
+  background: red;
+  border: 1px solid red;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 4px;
+  border-radius: 5px;
+}
+.mailandstart button:hover {
+  cursor: pointer;
+}
+.mainhead p,
+h1,
+h3 {
+  text-align: center;
+  padding: 11px 0px;
+}
+.textinner {
+  color: white;
+}
+.mainhead h1 {
+  font-weight: 900;
+  font-size: 65px;
+  font-family: "Ubuntu", sans-serif;
+}
+.mainhead h3 {
+  font-size: 33px;
+  font-family: "Ubuntu", sans-serif;
+}
+.mainhead p {
+  font-size: 19px;
+  font-family: "Ubuntu", sans-serif;
+}
+.fas {
+  display: none;
+}
+
+.drop {
+  display: none;
+}
+
+.maintext {
+  display: flex;
+  background: black;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.maintext .one {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.maintext .two,
+.three,
+.four {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.image img {
+  height: 330px;
+  width: 442px;
+  z-index: 4 !important;
+  overflow: hidden;
+  border-radius: 42px;
+}
+.playmusic {
+  position: absolute;
+  top: 20%;
+  left: -25%;
+}
+.image {
+  height: 317px;
+  width: 494px;
+  position: relative;
+}
+.playmusic video {
+  margin-top: 5px;
+  height: 181px;
+  width: 693px;
+  overflow: hidden;
+  margin-left: -4px;
+}
+.one,
+.two {
+  background: rgb(0, 0, 0);
+}
+.two,
+.three,
+.four {
+  margin-top: 23px;
+}
+.textinner p {
+  text-align: center;
+}
+
+.questions {
+  background-color: black;
+  padding: 23px;
+}
+.questions .content h1 {
+  color: white;
+  font-size: 38px;
+}
+.questions ul li {
+  padding: 5px 0px;
+  list-style: none;
+  text-align: center;
+}
+.questions ul li button,
+img {
+  background-color: rgba(48, 47, 47, 0.863);
+  color: white;
+}
+.questions ul li button,
+.info-for-que1,
+.info-for-que2,
+.info-for-que3,
+.info-for-que4,
+.info-for-que5,
+.info-for-que6 {
+  width: 722px;
+  height: 60px;
+  text-align: left;
+  padding: 0px 18px;
+  font-size: 23px;
+}
+.info-for-que1,
+.info-for-que2,
+.info-for-que3,
+.info-for-que4,
+.info-for-que5,
+.info-for-que6 {
+  height: auto !important;
+  margin-top: 10px !important;
+  display: none;
+}
+button img {
+  width: 27px;
+  height: 27px;
+  float: right;
+}
+
+/* .videocontainer {
+  width: 1000px;
+  height: 332px;
+} */
+/* media-queries */
+@media (min-width: 1508px) {
+  ul li button {
+    width: 744px !important;
+  }
+}
+@media (max-width: 1262) {
+  .maintext {
+    margin-top: 23px !important;
+  }
+}
+@media (max-width: 1066px) {
+  .image {
+    padding-top: 23px;
+  }
+}
+@media (max-width: 1262px) {
+  .maintext .one,
+  .three {
+    flex-wrap: wrap;
+  }
+  .maintext .two,
+  .four {
+    flex-wrap: wrap-reverse;
+  }
+}
+@media (max-width: 922px) {
+  .mainhead {
+    padding-left: 29px;
+    padding-right: 29px;
+  }
+  .mainhead h1 {
+    font-size: 55px;
+  }
+  .mainhead h3 {
+    font-size: 33px;
+  }
+  .mainhead p {
+  }
+}
+@media (max-width: 848px) {
+  .playmusic {
+    top: 28% !important;
+  }
+  ul li button {
+    width: 584px !important;
+  }
+}
+@media (max-width: 626px) {
+  ul li button {
+    width: 584px !important;
+  }
+}
+@media (max-width: 622px) {
+  ul li button {
+    width: 497px !important;
+  }
+}
+@media (max-width: 642px) {
+  .mainhead h1 {
+    font-size: 47px;
+  }
+  .mainhead h3 {
+    font-size: 23px;
+  }
+  .mainhead p {
+  }
+}
+ul li button p {
+  display: inline !important;
+}
+@media (max-width: 572px) {
+  .mainhead h1 {
+    font-size: 40px;
+  }
+  .mainhead h3 {
+    font-size: 19px;
+  }
+  .mainhead p {
+    font-size: 13px;
+  }
+
+  .mailandstart input {
+    width: 280px;
+    height: 44px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .mailandstart button {
+    width: 140px;
+    height: 44px;
+  }
+  .lsl .imagedes img {
+    height: 90px;
+    width: 170px;
+    margin: 14px 24px;
+    border-radius: 50%;
+    background: none;
+    z-index: 4;
+  }
+
+  .buttons .language {
+    margin-right: 8px;
+  }
+}
+
+@media (max-width: 495px) {
+  .lsl .imagedes img {
+    height: 90px;
+    width: 150px;
+    margin: 14px 24px;
+    border-radius: 50%;
+    background: none;
+  }
+}
+@media (max-width: 493px) {
+  ul li button {
+    width: 602px !important;
+  }
+  .mailandstart1 {
+    width: 1180px !important;
+  }
+}
+select {
+  text-align: center;
+}
+@media (max-width: 622px) {
+  .main {
+    width: 1420px;
+  }
+  .fa-bars:before {
+    margin-right: 151px !important;
+  }
+  .maintext,
+  .questions,
+  footer {
+    width: 1417px;
+  }
+}
+
+@media (max-width: 610px) {
+  .fa-bars:before {
+    content: "\f0c9";
+    float: right !important;
+    /* margin-right: 278px !important; */
+  }
+  .content ul,
+  .content h1 {
+    margin-left: 99px;
+  }
+  footer p {
+    margin-left: 94px;
+  }
+  .drop {
+    margin-left: 81px;
+  }
+  .language,
+  .signin {
+    display: none;
+  }
+  * {
+    width: 1189px;
+  }
+  .fas {
+    display: block;
+    background: none;
+    color: rgb(255, 0, 0);
+    font-size: 50px;
+  }
+  .drop {
+    height: 103px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: red;
+  }
+  .drop div {
+    padding: 8px 0px;
+  }
+  .drop .lang select {
+    height: 33px;
+    background-color: red;
+    border: 1px solid red;
+    color: #ffffff;
+    font-size: 28px;
+  }
+  .drop .sign button {
+    height: 33px;
+    background-color: red;
+    border: 1px solid red;
+    color: #ffffff;
+    font-size: 28px;
+  }
+  .drop {
+    display: none;
+  }
+  ul li button {
+    width: 801px !important;
+    height: 64px !important;
+  }
+  .mailandstart1 {
+    width: 1180px !important;
+  }
+}
+
+@media (max-width: 461px) {
+  .mainhead h1 {
+    font-size: 35px;
+  }
+  .mainhead h3 {
+    font-size: 14px;
+  }
+  .mainhead p {
+    font-size: 9px;
+  }
+  .mailandstart input {
+    width: 250px;
+    height: 40px;
+  }
+  .mailandstart button,
+  .demo button {
+    width: 130px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 445px) {
+  .mailandstart input {
+    width: 210px;
+    height: 35px;
+  }
+  .mailandstart button,
+  .demo button {
+    width: 120px;
+    height: 35px;
+  }
+  .mailandstart button,
+  .demo button {
+    font-size: 15px !important;
+    font-weight: 200 !important;
+  }
+}
+.mailandstart1 input {
+  margin: 10px;
+  width: 444px;
+  height: 44px;
+  text-align: center;
+  font-size: 25px;
+}
+.mailandstart1 button,
+.demo button {
+  width: 224px !important;
+  height: 23px;
+  background-color: rgb(252, 31, 15);
+  font-size: 30px !important;
+  background-color: red !important;
+}
+
+/* footer style  */
+.link {
+  padding: 50px;
+  background-color: rgb(22, 22, 22);
+  color: #ffffff;
+}
+
+.sub-links ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.sub-links a {
+  color: var(--dark);
+  text-decoration: none;
+}
+
+.sub-links a:hover {
+  color: var(--dark);
+  text-decoration: underline;
+}
+
+.logos {
+  margin-top: 12px;
+}
+
+.logos a {
+  padding: 10px;
+}
+
+.logo {
+  color: var(--dark);
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  color: var(--dark);
+  padding: 14px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+button:hover {
+  cursor: pointer;
+}
+.demo button {
+  color: white;
+  width: 205px !important;
+  height: 43px;
+  font-size: 29px !important;
+  font-weight: 300;
+}
+footer,
+footer p {
+  background-color: black !important;
+  color: rgb(255, 255, 255);
+}

@@ -1,0 +1,14 @@
+video link
+https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v
+
+pic link 
+https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png
+
+pokemon log
+	https://occ-0-4875-2186.1.nflxso.net/dnm/api/v6/Lm…JadHXK_t7sX-qLMe52oNLQefodmp-Hti3kR-pT_.png?r=58e
+
+back
+	https://occ-0-4875-2186.1.nflxso.net/dnm/api/v6/E8…VRWfExJcRdtdVCq7OShewOD6PWk7y-D_C03sAqd.jpg?r=11e
+
+video img
+	https://occ-0-4875-2186.1.nflxso.net/dnm/api/v6/9p…bOhe1pumTGiX409CxQRR16xqfquUwwrmZgGO9R1.jpg?r=074
